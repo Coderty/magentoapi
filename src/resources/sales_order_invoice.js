@@ -47,8 +47,8 @@ var protos = {
     Allows you to create a new invoice for an order.
   */
   create: {
-    mandatory: 'orderIncrementId,itemsQty',
-    optional: 'comment,email,includeComment'
+    mandatory: 'orderIncrementId',
+    optional: 'itemsQty,comment,email,includeComment'
   },
 
   /**
